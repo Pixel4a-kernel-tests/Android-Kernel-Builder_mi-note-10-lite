@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "VantomKernel",
-      "repo": "https://github.com/devnoname120/kernel_xiaomi_sm6150",
-      "branch": "fifteen",
-      "device": "toco",
-      "defconfig": "toco_defconfig"
+      "name": "pxl4a_blu_spark-13",
+      "repo": "https://github.com/kevin01523/pxl4a",
+      "branch": "blu_spark-13",
+      "device": "sunfish",
+      "defconfig": "blu_spark_defconfig"
     },
     "withKernelSU": false,
     "withSUSFS": false,
@@ -35,11 +35,11 @@
   },
   {
     "kernelSource": {
-      "name": "VantomKernel",
-      "repo": "https://github.com/devnoname120/kernel_xiaomi_sm6150",
-      "branch": "fifteen",
-      "device": "toco",
-      "defconfig": "toco_defconfig"
+      "name": "pxl4a_blu_spark-13",
+      "repo": "https://github.com/kevin01523/pxl4a",
+      "branch": "blu_spark-13",
+      "device": "sunfish",
+      "defconfig": "blu_spark_defconfig"
     },
     "withKernelSU": true,
     "withSUSFS": false,
@@ -69,11 +69,11 @@
   },
   {
     "kernelSource": {
-      "name": "VantomKernel",
-      "repo": "https://github.com/devnoname120/kernel_xiaomi_sm6150",
-      "branch": "fifteen",
-      "device": "toco",
-      "defconfig": "toco_defconfig"
+      "name": "pxl4a_blu_spark-13",
+      "repo": "https://github.com/kevin01523/pxl4a",
+      "branch": "blu_spark-13",
+      "device": "sunfish",
+      "defconfig": "blu_spark_defconfig"
     },
     "withKernelSU": true,
     "withSUSFS": true,
@@ -103,11 +103,11 @@
   },
   {
     "kernelSource": {
-      "name": "VantomKernel",
-      "repo": "https://github.com/devnoname120/kernel_xiaomi_sm6150",
-      "branch": "fifteen",
-      "device": "toco",
-      "defconfig": "toco_defconfig"
+      "name": "pxl4a_blu_spark-13",
+      "repo": "https://github.com/kevin01523/pxl4a",
+      "branch": "blu_spark-13",
+      "device": "sunfish",
+      "defconfig": "blu_spark_defconfig"
     },
     "withKernelSU": true,
     "withSUSFS": false,
@@ -137,11 +137,11 @@
   },
   {
     "kernelSource": {
-      "name": "VantomKernel",
-      "repo": "https://github.com/devnoname120/kernel_xiaomi_sm6150",
-      "branch": "fifteen",
-      "device": "toco",
-      "defconfig": "toco_defconfig"
+      "name": "pxl4a_blu_spark-13",
+      "repo": "https://github.com/kevin01523/pxl4a",
+      "branch": "blu_spark-13",
+      "device": "sunfish",
+      "defconfig": "blu_spark_defconfig"
     },
     "withKernelSU": true,
     "withSUSFS": true,
