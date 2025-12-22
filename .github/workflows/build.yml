@@ -82,8 +82,7 @@ jobs:
         id: clone-kernel
         run: |
 
-          git config --local user.email "kevin01523@users.noreply.github.com"
-          git config --local user.name "kevin01523"
+
           git clone --recursive --depth=1 -j $(nproc) --branch ${KERNEL_BRANCH} ${KERNEL_REPO} ${KERNEL_NAME}
           KERNEL_GIT_REF=$(git -C ${KERNEL_NAME} rev-parse --short HEAD)
           echo "KERNEL_GIT_REF=${KERNEL_GIT_REF}" >> ${GITHUB_OUTPUT}
@@ -91,6 +90,8 @@ jobs:
 
           echo "🤔 Clone kernel source => (${KERNEL_REPO})"
           cd pxl4a_blu_spark-13
+          git config --local user.email "kevin01523@users.noreply.github.com"
+          git config --local user.name "kevin01523"
           git remote add fifteen https://github.com/devnoname120/kernel_xiaomi_sm6150.git
           git fetch fifteen 2caffe86d1738e61e875e88ad351aa025800409b
           git fetch fifteen fce5582771e1254af065aaa2778940659e246611
