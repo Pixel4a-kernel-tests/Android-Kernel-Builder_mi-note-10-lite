@@ -2,6 +2,7 @@ name: "Build kernels"
 
 env:
   OUT_DIR: "${{ github.workspace }}/out"
+  
 
 on:
   workflow_dispatch:
@@ -80,6 +81,9 @@ jobs:
       - name: "🌟 Clone kernel source => (${{ env.KERNEL_REPO }})"
         id: clone-kernel
         run: |
+
+          git config --local user.email "kevin01523@users.noreply.github.com"
+          git config --local user.name "kevin01523"
           git clone --recursive --depth=1 -j $(nproc) --branch ${KERNEL_BRANCH} ${KERNEL_REPO} ${KERNEL_NAME}
           KERNEL_GIT_REF=$(git -C ${KERNEL_NAME} rev-parse --short HEAD)
           echo "KERNEL_GIT_REF=${KERNEL_GIT_REF}" >> ${GITHUB_OUTPUT}
