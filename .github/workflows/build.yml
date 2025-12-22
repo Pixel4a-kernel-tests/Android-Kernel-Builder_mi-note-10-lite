@@ -86,6 +86,14 @@ jobs:
           echo -e "\n⚠️ Kernel is at commit: ${KERNEL_GIT_REF}\n"
 
           echo "🤔 Clone kernel source => (${KERNEL_REPO})"
+          cd pxl4a_blu_spark-13
+          git remote add fifteen https://github.com/devnoname120/kernel_xiaomi_sm6150.git
+          git fetch fifteen 2caffe86d1738e61e875e88ad351aa025800409b
+          git fetch fifteen fce5582771e1254af065aaa2778940659e246611
+          git cherry-pick 2caffe86d1738e61e875e88ad351aa025800409b fce5582771e1254af065aaa2778940659e246611
+          
+          echo -e "\n⚠️ Kernel is at new commit: ${KERNEL_GIT_REF}\n"
+          cd ..
 
       - name: "💫 Get toolchains"
         env:
