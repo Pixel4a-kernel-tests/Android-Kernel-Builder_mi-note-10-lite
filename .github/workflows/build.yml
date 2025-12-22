@@ -94,8 +94,9 @@ jobs:
           git config --local user.name "kevin01523"
           git remote add fifteen https://github.com/devnoname120/kernel_xiaomi_sm6150.git
           git fetch fifteen 2caffe86d1738e61e875e88ad351aa025800409b
-          git fetch fifteen fce5582771e1254af065aaa2778940659e246611
-          git cherry-pick --strategy=recursive -X theirs 2caffe86d1738e61e875e88ad351aa025800409b fce5582771e1254af065aaa2778940659e246611
+          git fetch fifteen fce5582771e1254af065aaa2778940659e246611 
+          git fetch fifteen e912bd45427f91f2ded2eef4f6273ae1827cf539
+          git cherry-pick --strategy=recursive -X theirs 2caffe86d1738e61e875e88ad351aa025800409b e912bd45427f91f2ded2eef4f6273ae1827cf539 fce5582771e1254af065aaa2778940659e246611
           
           echo -e "\n⚠️ Kernel is at new commit: ${KERNEL_GIT_REF}\n"
           cd ..
