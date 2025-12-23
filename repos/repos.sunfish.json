@@ -23,6 +23,7 @@
       "externalCommand": {
         "LLVM": "1",
         "CROSS_COMPILE": "aarch64-linux-gnu-",
+        "CROSS_COMPILE_COMPAT": "=arm-linux-androidkernel-",
         "EXTRAVERSION": "-perf"
       }
     },
@@ -57,6 +58,7 @@
       "externalCommand": {
         "LLVM": "1",
         "CROSS_COMPILE": "aarch64-linux-gnu-",
+        "CROSS_COMPILE_COMPAT": "=arm-linux-androidkernel-",
         "EXTRAVERSION": "-perf"
       }
     },
@@ -91,6 +93,7 @@
       "externalCommand": {
         "LLVM": "1",
         "CROSS_COMPILE": "aarch64-linux-gnu-",
+        "CROSS_COMPILE_COMPAT": "=arm-linux-androidkernel-",
         "EXTRAVERSION": "-perf"
       }
     },
@@ -125,6 +128,7 @@
       "externalCommand": {
         "LLVM": "1",
         "CROSS_COMPILE": "aarch64-linux-gnu-",
+        "CROSS_COMPILE_COMPAT": "=arm-linux-androidkernel-",
         "EXTRAVERSION": "-perf"
       }
     },
@@ -159,6 +163,7 @@
       "externalCommand": {
         "LLVM": "1",
         "CROSS_COMPILE": "aarch64-linux-gnu-",
+        "CROSS_COMPILE_COMPAT": "=arm-linux-androidkernel-",
         "EXTRAVERSION": "-perf"
       }
     },
